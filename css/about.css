@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+    font-family: 'Acme', sans-serif;
+}
+.header {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 4rem;
+    color: red;
+}
+
+.logo:hover {
+    color: #dcdde1;
+    transition: all ease .8s;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: underline;
+}
+
+.nav-link:hover {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link.active {
+    background-color: red;
+    border-radius: 7px;
+}
+
+.nav-link.active:hover {
+    color: black;
+    text-decoration: none;
+}
+
+    
+.section-2 {
+ background-color: cornsilk;
+ 
+}
+
+
+
+
