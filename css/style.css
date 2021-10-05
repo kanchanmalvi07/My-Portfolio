@@ -18,7 +18,13 @@
      color: white;
  }
 
-
+ .header ul {
+     display: flex;
+     list-style: none;
+     margin: 1rem 0rem;
+     padding: 0rem;
+     justify-content: center;
+ }
 
  .nav-link {
      text-transform: uppercase;
@@ -27,13 +33,11 @@
  }
 
  .nav-link:hover {
-     color: #5c637d;;
+     color: #5c637d;
+     ;
      text-decoration: none;
      font-weight: 500;
  }
-
-
-
 
  .section-2 {
      height: 30rem;
@@ -74,9 +78,10 @@
      margin-bottom: .5rem;
      color: #3bc5b7;
  }
- .card-link{
-    color: #4e8b96;
-    text-decoration: underline;
+
+ .card-link {
+     color: #4e8b96;
+     text-decoration: underline;
  }
 
  .text-muted {
@@ -89,18 +94,15 @@
      font-size: 24px;
  }
 
-
-
-
  .artical {
-    justify-content: center;
-    position: relative;
-    top: 2rem;
-    width: 75%;
-    margin: 0px auto;
+     justify-content: center;
+     position: relative;
+     top: 2rem;
+     width: 75%;
+     margin: 0px auto;
  }
 
- .progress-skils{
+ .progress-skils {
      margin: .8rem 0rem;
      font-weight: 500;
  }
@@ -131,7 +133,137 @@
      padding: 0rem 1rem;
      font-size: xx-large;
  }
- .link:hover{
-    color: #5c637d;
 
+ .link:hover {
+     color: #5c637d;
+ }
+
+ /* Education Css */
+
+ .education-content {
+     margin: 1rem 0rem;
+ }
+
+ .col-4 img {
+     width: 100%;
+ }
+
+ .edu-title {
+     color: red;
+     font-size: 21px;
+ }
+
+ .edu-university {
+     color: cadetblue;
+     font-size: 18px;
+ }
+
+ .second-education {
+     margin: 1rem 0rem;
+ }
+
+ .grad-image {
+     position: relative;
+     top: 4rem;
+ }
+
+ /* project css */
+
+ .project-img {
+     margin: 1rem 16rem;
+     width: 55%;
+ }
+
+ .project-button {
+     text-align: center;
+ }
+
+ .project-card {
+     border: 1px solid rgb(99 255 222);
+ }
+
+ .project-toggle-btn {
+     color: #fff;
+     background-color: #f55f44;
+     margin-top: .5rem!important;
+     width: 30%;
+     text-decoration: underline;
+ }
+
+ .project-toggle-btn:hover {
+     color: #fff;
+     background-color: #e23213;
+     border: none;
+ }
+
+ .btn:focus {
+     box-shadow: none;
+ }
+
+ .project-screenshot {
+     text-align: end;
+ }
+
+ .project-screenshot img {
+     width: 40%;
+     cursor: pointer;
+     text-align: end;
+ }
+
+ #collapseWidthExample {
+     margin: 1rem 0rem;
+ }
+
+ .project-title {
+     color: #bd523f;
+     font-size: 20px;
+ }
+
+ @media only screen and (min-width:200px) and ( max-width:767px) {
+     .section-1 {
+         flex-direction: column;
+     }
+     .logo {
+         text-align: center;
+     }
+     .image {
+         width: 100%;
+     }
+     .subpart {
+         flex-direction: column;
+     }
+     .section-4 {
+         flex-direction: column;
+     }
+     .front-card {
+         width: 100%!important;
+     }
+     .first-education {
+         flex-direction: column-reverse;
+     }
+     .second-education {
+         flex-direction: column;
+     }
+     .third-education {
+         flex-direction: column-reverse;
+     }
+     .col-8 {
+         width: 100%;
+         margin-top: 1rem;
+     }
+     .col-4 {
+         width: 100%;
+     }
+     .grad-image {
+         position: relative;
+         top: 0rem;
+     }
+     .project-img {
+         margin: 1rem 0rem;
+         width: 100%;
+     }
+     .project-footer {
+         position: relative;
+         top: 3rem;
+     }
  }
